@@ -23,7 +23,7 @@ thinkplot.Show(xlabel='Age (years)', ylabel='Weight (kg)', axis=[10, 45, 0, 16])
 print('Pearson\'s correlation is: ' , Corr(ages,weights))  
 print('Spearman\'s correlation is: ' , SpearmanCorr(ages,weights))
 
-**Output:
+**Output:  
 Pearson's correlation is:  0.06883397035410908  
 Spearman's correlation is:  0.09461004109658226**
 
