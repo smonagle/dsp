@@ -18,7 +18,7 @@ for percent in [75, 50, 25]:
     thinkplot.Plot(mean_ages, weight_cdf, label=label)  
 thinkplot.Show(xlabel='Age (years)', ylabel='Weight (kg)', axis=[10, 45, 0, 16])  
 
-**Output: _Jupyter Notebook shows percentile plots of 25th, 50th, and 75th weight percentiles vs. age for  _**  
+**Output: _Jupyter Notebook shows percentile plots of 25th, 50th, and 75th weight percentiles vs. age for_**  
 
 print('Pearson\'s correlation is: ' , Corr(ages,weights))  
 print('Spearman\'s correlation is: ' , SpearmanCorr(ages,weights))
