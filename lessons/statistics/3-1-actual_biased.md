@@ -20,3 +20,5 @@ print('Observed mean', biased_pmf.Mean())
 **Output:**  
 **Actual mean 1.024205155043831  
 Observed mean 2.403679100664282**
+
+_There is a stark difference between the distribution and mean of the actual number of children per household compared to the observed distribution and mean if children are surveyed. This is primarily driven by the fact that this survey method excludes households with no children, which represents ~50% of all the households in the data set._
