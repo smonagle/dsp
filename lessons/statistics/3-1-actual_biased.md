@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
-"numb_child = Counter(resp['numkdhh']) \n"
+numb_child = Counter(resp['numkdhh'])
 child_hist = thinkstats2.Hist(numb_child)
 pmf = thinkstats2.Pmf(child_hist, label='actual')
 child_hist
