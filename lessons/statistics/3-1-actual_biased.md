@@ -12,7 +12,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])  
 thinkplot.Config(xlabel='Number of Children', ylabel='PMF')  
 
-**Output** #Jupyter Notebook shows plot of pmf and biased_pmf
+**Output _#Jupyter Notebook shows plot of pmf and biased_pmf_**
 
 print('Actual mean', pmf.Mean())  
 print('Observed mean', biased_pmf.Mean())  
