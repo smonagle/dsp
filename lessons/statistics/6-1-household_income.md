@@ -4,7 +4,7 @@ print('Mean:', Mean(sample))
 print('Median:',Median(sample))  
 print('Skewness:', Skewness(sample))  
 print('Pearson Skewness:', PearsonMedianSkewness(sample))  
-print('The fraction of households with income below the mean is:', cdf[Mean(sample)])  
+print('The fraction of households with income below the mean is:', cdf[Mean(sample)])
 
 **Output:  
 Mean: 74278.70753118733  
