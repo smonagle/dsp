@@ -16,7 +16,7 @@ def ExpSimulator(n=7, lam = 2, iters=1000):
     print('rmse L', RMSE(means, lam))  
 
 ExpSimulator()  
-
+</pre>
 **Output:  
 The 90% Confidence Interval is: (1.1765411024847683, 4.13593779838711)  
 rmse L 1.060198078232754  
